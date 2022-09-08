@@ -3,7 +3,6 @@ from rhombus.lib.utils import cerr, set_dbhandler_class, get_dbhandler_class
 from rhombus.routes import add_route_view, add_route_view_class
 
 from messy_panelseq.models.handler import generate_handler_class
-from messy_panelseq import routes
 
 set_dbhandler_class(generate_handler_class(get_dbhandler_class()))
 
